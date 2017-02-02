@@ -54,4 +54,11 @@ while True:
         c.execute(sql)
     elif args[0] =="save":
         conn.commit()
+    elif args[0] == "help":
+        print "show"
+        print "add path (don't save)"
+        print "do number"
+        print "delete number (don't save)"
+        print "save"
+        print "help"
 conn.close()
